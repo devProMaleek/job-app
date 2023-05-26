@@ -1,5 +1,10 @@
 {
   "expo": {
+    "extra": {
+      "MY_RAPID_API_KEY": "9d7ddc17d1msh1912d0012de7076p1d45d8jsn9d2ba67c95d6",
+      "RAPID_API_KEY": "KJwZZIJSFimshuivMSVGaiYzkRomp15f2vKjsnK4bKzuUzVLzA",
+      "RAPID_API_HOST": "jsearch.p.rapidapi.com"
+    },
     "scheme": "acme",
     "web": {
       "bundler": "metro"
