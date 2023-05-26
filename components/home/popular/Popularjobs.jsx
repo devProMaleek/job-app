@@ -22,8 +22,6 @@ const PopularJobs = () => {
     num_pages: '1',
   });
 
-  console.log(data);
-
   return (
     <View style={styles.container}>
       <View style={styles.header}>
@@ -45,7 +43,7 @@ const PopularJobs = () => {
               <PopularJobCard item={item} selectedJob={selectedJob} handleCardPress={handleCardPress} />
             )}
             keyExtractor={(item) => item}
-            contentContainerStyle={{ columnGap: SIZES.medium, paddingBottom: '30px' }}
+            contentContainerStyle={{ columnGap: SIZES.medium, paddingBottom: 30 }}
             // showsHorizontalScrollIndicator={false}
             horizontal
           />

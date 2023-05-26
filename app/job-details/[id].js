@@ -97,6 +97,6 @@ const pageStyles = StyleSheet.create({
   },
   dataView: {
     padding: SIZES.medium,
-    paddingBottom: 100,
+    // paddingBottom: 100,
   },
 });

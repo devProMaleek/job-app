@@ -8,8 +8,8 @@ import { icons, SIZES } from '../../../constants';
 const jobTypes = ['Full-time', 'Part-time', 'Contractor'];
 
 const Welcome = ({ searchTerm, setSearchTerm, handlePress }) => {
-  const router = useRouter();
   const [activeJobType, setActiveJobType] = useState('Full-time');
+  const router = useRouter();
 
   const handleJobTypePress = useCallback(
     (jobType) => {
